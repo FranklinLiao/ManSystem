@@ -37,7 +37,7 @@ class NormalLoginForm extends Component {
                         isLoding: true,
                     });
 
-                    localStorage.setItem('mspa_user',JSON.stringify(values));
+                    localStorage.setItem('user',JSON.stringify(values));
                     message.success('login successed!'); //成功信息
                     let that = this;
                     setTimeout(function() { //延迟进入
